@@ -1,6 +1,6 @@
 {
-  "name": "@baronha/ting",
-  "version": "1.2.0",
+  "name": "@startcat/ting",
+  "version": "1.2.1",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -41,7 +41,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/baronha/ting",
+  "repository": "https://github.com/startcat/ting",
   "author": "Baron Ha. <baronn.ha@gmail.com> (https://github.com/baronha)",
   "license": "MIT",
   "bugs": {
