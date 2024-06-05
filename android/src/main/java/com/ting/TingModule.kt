@@ -80,6 +80,7 @@ class TingModule internal constructor(context: ReactApplicationContext) : TingSp
           // Add drag gesture recognizer
           contentView?.let { contentView ->
             val gestureDetector = GestureDetector(context, object : GestureDetector.SimpleOnGestureListener() {
+              @Suppress("NOTHING_TO_OVERRIDE", "ACCIDENTAL_OVERRIDE")
               override fun onScroll(e1: MotionEvent, e2: MotionEvent, distanceX: Float, distanceY: Float): Boolean {
                 // Check if the user scrolls vertically and dismiss the toast window if needed
                 if (abs(distanceY) > abs(distanceX)) {

@@ -1,6 +1,6 @@
 #import "Ting.h"
 
-#import <ting-Swift.h>
+#import <Ting/Ting-Swift.h>
 
 @implementation Ting
 
